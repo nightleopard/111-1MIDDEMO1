@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="lb_Msg" runat="server"></asp:Label>
+            <asp:Label ID="lb_Msg" runat="server" OnDataBinding="lb_Msg_DataBinding"></asp:Label>
         </div>
     </form>
 </body>

@@ -16,7 +16,7 @@
                 <h3><asp:Label ID="lb_Type" runat="server" Text="初診" Visible="True" ViewStateMode="Inherit"></asp:Label></h3>
                 <asp:RadioButton ID="rb_Id" runat="server" GroupName="rb_Type" Checked="True" Text="身分證字號" />
                 <asp:RadioButton ID="rb_Hid" runat="server" GroupName="rb_Type" Text="病歷號" />
-                <asp:TextBox ID="tb_Account" runat="server" Width="400px" Height="20px" OnTextChanged="tb_Account_TextChanged"></asp:TextBox>
+                <asp:TextBox ID="tb_Account" runat="server" Width="400px" Height="20px"></asp:TextBox><br />
                 <asp:Label runat="server" Text="電子信箱：(選填)" ID="Label1"></asp:Label>
                 <asp:TextBox ID="tb_Email" runat="server" Width="300px" Height="20px"></asp:TextBox>
                 <asp:Button ID="btn_Submit" runat="server" Text="掛號" Width="80px" Visible="False" />
